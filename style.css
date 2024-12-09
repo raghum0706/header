@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+img {
+    width: 200px;
+    height: auto;
+    margin-left: 85px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    justify-content: center;
+}
+ul li {
+    margin: 0 10px;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease;
+}
+ul li a:hover {
+    color: orange;
+}
+.contact-info {
+    font-size: 25px;
+    margin-right: 80px;
+}
+.contact-info a {
+    color: white;
+}
